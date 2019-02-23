@@ -1,5 +1,6 @@
 #page-desktop{ position: static}
-#body_div{ background: #FFFFFF}
+#body_div{ background: #FFFFFF
+}
 .main-section{ background: #222d32}
 .page-head{ position: static}
 .page-content{ margin-top:0}
@@ -19,12 +20,12 @@ header .dropdown-help{display:none}
 */
 #page-desktop{ background-color:#FFFFFF !important}
 .main-header .logo .logo-lg{
-    background: #367fa9 url(/assets/bdtheme/images/logo_bdoop.png) center no-repeat; 
-    background-size: auto 48px;
+    background: #FFFFFF url(/assets/bdtheme/images/logo_bdoop.png) center no-repeat; 
+    background-size: auto 58px;
     text-indent:-99em;
 }
 .main-header .logo .logo-mini{
-    background: #367fa9 url(/assets/bdtheme/images/bp-ico-32.png) center no-repeat; 
+    background: #FFFFFF url(/assets/bdtheme/images/bp-ico-32.png) center no-repeat; 
     background-size: auto 38px;
     text-indent:-99em;
 }

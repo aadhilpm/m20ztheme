@@ -4,7 +4,41 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
         <li class="header">MAIN NAVIGATION</li>
-        <li class="treeview">
+		 <li class="treeview">
+          <a href="#">
+            <i class="fa fa-archive"></i>
+            <span>Masters</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+		  <li><a href="#List/Customer/List"><i class="fa fa-circle-o"></i> Customer</a></li>
+            <li><a href="#List/Supplier/List"><i class="fa fa-circle-o"></i> Supplier</a></li>
+            <li><a href="#List/Item/List"><i class="fa fa-circle-o"></i>  Item</a></li>
+			<li><a href="#query-report/Addresses And Contacts"><i class="fa fa-circle-o"></i> List Print</a></li>
+			
+            
+          </ul>
+        </li>
+		 <li class="treeview">
+          <a href="#">
+            <i class="fa fa-line-chart"></i>
+            <span>Sales</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+		  <li><a href="#List/Sales Invoice"><i class="fa fa-circle-o"></i>  Sales Invoice</a></li>
+            <li><a href="#List/Quotation"><i class="fa fa-circle-o"></i>  Quotation</a></li>
+            <li><a href="#List/Sales Order"><i class="fa fa-circle-o"></i>  Sales Order</a></li>
+            <li><a href="#sales-analytics"><i class="fa fa-circle-o"></i>  Sales Analytics</a></li>
+			<li><a href="#List/Delivery Note"><i class="fa fa-circle-o"></i> Delivery Note </a></li>
+							<li><a href="#query-report/Customer Credit Balance"><i class="fa fa-circle-o"></i> Customer Credit Balance</a></li>
+          </ul>
+        </li>
+  <!--    <li class="treeview">
           <a href="#">
             <i class="fa fa-phone-square"></i>
             <span>CRM</span>
@@ -21,33 +55,22 @@
             <li><a href="#modules/CRM"><i class="fa fa-circle-o"></i> More...</a></li>
           </ul>
         </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-line-chart"></i>
-            <span>Sales</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="#List/Quotation"><i class="fa fa-circle-o"></i>  Quotation</a></li>
-            <li><a href="#List/Sales Order"><i class="fa fa-circle-o"></i>  Sales Order</a></li>
-            <li><a href="#modules/Selling"><i class="fa fa-circle-o"></i>  More...</a></li>
-          </ul>
-        </li>
+       -->
         <li class="treeview">
           <a href="#">
             <i class="fa fa-building"></i>
-            <span>Purchasing</span>
+            <span>Purchase</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#List/Material Request/List"><i class="fa fa-circle-o"></i> Material Request</a></li>
-            <li><a href="#List/Purchase Order"><i class="fa fa-circle-o"></i> Purchase Order</a></li>
-            <li><a href="#List/Supplier"><i class="fa fa-circle-o"></i> Supplier</a></li>
-            <li><a href="#modules/Buying"><i class="fa fa-circle-o"></i> More...</a></li>
+		  <li><a href="#List/Purchase Order"><i class="fa fa-circle-o"></i> Purchase Order</a></li>
+		   <li><a href="#List/Purchase Invoice"><i class="fa fa-circle-o"></i> Purchase Invoice</a></li>
+		      <li><a href="#List/Purchase Receipt"><i class="fa fa-circle-o"></i> Purchase Receipt</a></li>
+           
+			<li><a href="#List/Supplier"><i class="fa fa-circle-o"></i> Supplier</a></li>
+          
           </ul>
         </li>
         <li class="treeview">
@@ -59,15 +82,22 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#List/Item"><i class="fa fa-circle-o"></i> Item</a></li>
-            <li><a href="#List/Serial No"><i class="fa fa-circle-o"></i> Serial No</a></li>
-            <li><a href="#List/Delivery Note"><i class="fa fa-circle-o"></i> Delivery Note </a></li>
-            <li><a href="#List/Purchase Receipt"><i class="fa fa-circle-o"></i> Purchase Receipt</a></li>
+            <li><a href="#List/Item"><i class="fa fa-circle-o"></i> Item</a></li>                
+          <li><a href="#List/Stock Entry/List"><i class="fa fa-circle-o"></i> Material Transfer</a></li>
             <li><a href="#List/Stock Entry/List"><i class="fa fa-circle-o"></i> Stock Entry</a></li>
-            <li><a href="#modules/Stock"><i class="fa fa-circle-o"></i> More...</a></li>
+            <li><a href="#List/Stock Reconciliation/List"><i class="fa fa-circle-o"></i> Stock Reconciliation</a></li>
+			<li><a href="#query-report/Stock Ledger"><i class="fa fa-circle-o"></i> Stock Ledger</a></li>
+			<li><a href="#query-report/Stock Balance"><i class="fa fa-circle-o"></i> Stock Balance</a></li>
+				<li><a href="#query-report/Item Shortage Report"><i class="fa fa-circle-o"></i> Item Shortage Report</a></li>
+			<li><a href="#query-report/Stock Projected Qty"><i class="fa fa-circle-o"></i> Stock Projected Qty</a></li>
+			<li><a href="#query-report/Stock Summary"><i class="fa fa-circle-o"></i> Stock Summary</a></li>
+			<li><a href="#query-report/Item Price Stock"><i class="fa fa-circle-o"></i> Item Price Stock</a></li>
+		
+
+			
           </ul>
         </li>
-        <li class="treeview">
+   <!--     <li class="treeview">
           <a href="#">
             <i class="fa fa-file-powerpoint-o"></i>
             <span>Projects</span>
@@ -80,8 +110,8 @@
             <li><a href="#List/Task/List"><i class="fa fa-circle-o"></i> Task</a></li>
             <li><a href="#modules/Projects"><i class="fa fa-circle-o"></i> More...</a></li>
           </ul>
-        </li>
-        <li class="treeview">
+        </li>-->
+       <!-- <li class="treeview">
           <a href="#">
             <i class="fa fa-life-ring"></i>
             <span>Support</span>
@@ -96,8 +126,8 @@
             <li><a href="#List/Warranty Claim/List"><i class="fa fa-circle-o"></i> Warranty Claim</a></li>
             <li><a href="#modules/Support"><i class="fa fa-circle-o"></i> More...</a></li>
           </ul>
-        </li>
-        <li class="treeview">
+        </li>-->
+   <!--     <li class="treeview">
           <a href="#">
             <i class="fa fa-male"></i>
             <span>Human Resources</span>
@@ -112,8 +142,9 @@
             <li><a href="#List/Training Event"><i class="fa fa-circle-o"></i> Training Event</a></li>
             <li><a href="#modules/HR"><i class="fa fa-circle-o"></i> More...</a></li>
           </ul>
-        </li>
-        <li class="treeview">
+        </li>-->
+    
+		 <li class="treeview">
           <a href="#">
             <i class="fa fa-calculator"></i>
             <span>Accounts</span>
@@ -122,26 +153,51 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#List/Sales Invoice"><i class="fa fa-circle-o"></i> Sales Invoice</a></li>
-            <li><a href="#List/Purchase Invoice"><i class="fa fa-circle-o"></i> Purchase Invoice</a></li>
+                      
             <li><a href="#List/Payment Entry"><i class="fa fa-circle-o"></i> Payment Entry</a></li>
-
+ <li><a href="#List/Journal%20Entry/List"><i class="fa fa-circle-o"></i> Journal Entry</a></li>
+ <li><a href="#query-report/General%20Ledger"><i class="fa fa-circle-o"></i> General Ledger</a></li>
+ 
             <li><a href="#query-report/Accounts Receivable"><i class="fa fa-circle-o"></i> Accounts Receivable</a></li>
             <li><a href="#query-report/Accounts Payable"><i class="fa fa-circle-o"></i> Accounts Payable</a></li>
             <li><a href="#query-report/Trial Balance"><i class="fa fa-circle-o"></i> Trial Balance</a></li>
             <li><a href="#query-report/Balance Sheet"><i class="fa fa-circle-o"></i> Balance Sheet</a></li>
             <li><a href="#query-report/Cash Flow"><i class="fa fa-circle-o"></i> Cash Flow</a></li>
             <li><a href="#query-report/Profit and Loss Statement"><i class="fa fa-circle-o"></i> Profit and Loss Statement</a></li>
-            <li><a href="#modules/Accounts"><i class="fa fa-circle-o"></i> More...</a></li>
+     
           </ul>
         </li>
-        <li>
-          <a href="#modules/Setup">
-            <i class="fa fa-cog"></i> <span>Setup</span>
+		    <li class="treeview">
+          <a href="#">
+            <i class="fa fa-align-justify"></i>
+            <span>Other Reports</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
           </a>
+          <ul class="treeview-menu">
+                      
+            <li><a href="#query-report/Trial Balance for Party"><i class="fa fa-circle-o"></i> Trial Balance for Party</a></li>
+ <li><a href="#query-report/Profitability Analysis"><i class="fa fa-circle-o"></i> Profitability Analysis</a></li>
+ <li><a href="#query-report/Payment Period Based On Invoice Date"><i class="fa fa-circle-o"></i> Payment Period Based On Invoice Date</a></li>
+ 
+            <li><a href="#query-report/Item-wise Sales Register"><i class="fa fa-circle-o"></i> Item-wise Sales Register</a></li>
+            <li><a href="#query-report/Item-wise Purchase Register"><i class="fa fa-circle-o"></i> Item-wise Purchase Register</a></li>
+            <li><a href="#query-report/Accounts Receivable Summary"><i class="fa fa-circle-o"></i> Accounts Receivable Summary</a></li>
+            <li><a href="#query-report/Accounts Payable Summary"><i class="fa fa-circle-o"></i> Accounts Payable Summary</a></li>
+            <li><a href="#query-report/Customer Credit Balance"><i class="fa fa-circle-o"></i> Customer Credit Balance</a></li>
+            <li><a href="#query-report/Gross Profit Analytics"><i class="fa fa-circle-o"></i> Gross Profit </a></li>
+			 <li><a href="#query-report/Purchase Invoice Trends"><i class="fa fa-circle-o"></i> Purchase Invoice Trends</a></li>
+			 <li><a href="#query-report/Sales Invoice Trends"><i class="fa fa-circle-o"></i> Sales Invoice Trends</a></li>
+     
+          </ul>
         </li>
+		
+     
 		</ul>
     </section>
+	<center>
+<a href="https://m20zero.com" target="_blank"><img src="https://erp.solankimission.com/files/M20ZeroERPlogo.png" alt="M20Zero" width="100%" height="100%"></a><center>
     <!-- /.sidebar -->
   </aside>
   <div class="overlay"><div>
